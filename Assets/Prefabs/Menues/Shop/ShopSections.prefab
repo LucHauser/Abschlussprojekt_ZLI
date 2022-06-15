@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2657633310202875480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2657633310202875476}
+  - component: {fileID: 2657633310202875479}
+  - component: {fileID: 2657633310202875478}
+  - component: {fileID: 2657633310202875481}
+  m_Layer: 0
+  m_Name: ShopSections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2657633310202875476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657633310202875480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2657633310202875479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657633310202875480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1ceba17e8a1484fb50e31b632f3733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NAME: Weapons
+  dataset:
+  - {fileID: 11400000, guid: 06d6a1c36cf02f64ead7e91684fd2f63, type: 2}
+  - {fileID: 11400000, guid: 0a7416d7786c76c4693acf53d8be5f40, type: 2}
+  boughtArrey: 
+  currentArrey: 
+  uiItems: []
+  dontHaveFistElementFromStart: 0
+--- !u!114 &2657633310202875478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657633310202875480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1ceba17e8a1484fb50e31b632f3733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NAME: Environments
+  dataset:
+  - {fileID: 11400000, guid: 081ffa525eba4ed479d7d87bc1c49431, type: 2}
+  - {fileID: 11400000, guid: ea4ded17240eea2499fb7d46103ffe3d, type: 2}
+  boughtArrey: 
+  currentArrey: 
+  uiItems: []
+  dontHaveFistElementFromStart: 0
+--- !u!114 &2657633310202875481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657633310202875480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1ceba17e8a1484fb50e31b632f3733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NAME: Cloths
+  dataset:
+  - {fileID: 11400000, guid: 9b1fa2d04fa3c544180a6b980b340061, type: 2}
+  boughtArrey: 
+  currentArrey: 
+  uiItems: []
+  dontHaveFistElementFromStart: 0
